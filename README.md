@@ -9,4 +9,4 @@ type MyTransportWrapper struct {
 }
 ```
 The Example can be find at URLFetcher.go. When IPv6Only is passed, the http client will connect remote host only via IPv6.
-`WARNING: NOT WORK FOR HTTPS NOW!`
+Works for both http & https.
